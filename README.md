@@ -60,6 +60,3 @@ Il percorso documentato spazia dalle basi delle reti combinatorie fino alla micr
 | **Hardware** | FPGA Nexys A7-50T / Nexys A7-100T (Artix-7) |
 
 ---
-
-## 📂 Modalità di Caricamento e Struttura
-Per facilitare il download e mantenere l'integrità della struttura dei progetti Vivado, gli esercizi sono stati raggruppati e caricati in un **archivio compresso (.zip)**
