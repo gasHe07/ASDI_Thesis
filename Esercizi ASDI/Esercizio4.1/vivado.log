@@ -1,0 +1,94 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Fri Nov 14 16:53:59 2025
+# Process ID: 14720
+# Current directory: C:/Users/eliof/Desktop/Esercizi ASDI/Esercizio4.1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent12812 C:\Users\eliof\Desktop\Esercizi ASDI\Esercizio4.1\Esercizio4.1.xpr
+# Log file: C:/Users/eliof/Desktop/Esercizi ASDI/Esercizio4.1/vivado.log
+# Journal file: C:/Users/eliof/Desktop/Esercizi ASDI/Esercizio4.1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/eliof/Desktop/Esercizi ASDI/Esercizio4.1/Esercizio4.1.xpr}
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2020.1/data/ip'.
+open_project: Time (s): cpu = 00:00:13 ; elapsed = 00:00:05 . Memory (MB): peak = 1024.734 ; gain = 0.000
+update_compile_order -fileset sources_1
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/eliof/Desktop/Esercizi ASDI/Esercizio4.1/Esercizio4.1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_shiftreg' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/eliof/Desktop/Esercizi ASDI/Esercizio4.1/Esercizio4.1.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj tb_shiftreg_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/eliof/Desktop/Esercizi ASDI/Esercizio4.1/Esercizio4.1.srcs/sources_1/new/ffd.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ffd'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/eliof/Desktop/Esercizi ASDI/Esercizio4.1/Esercizio4.1.srcs/sources_1/new/muxN_1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'mux4_1'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/eliof/Desktop/Esercizi ASDI/Esercizio4.1/Esercizio4.1.srcs/sources_1/new/shiftreg.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'shiftreg'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/eliof/Desktop/Esercizi ASDI/Esercizio4.1/Esercizio4.1.srcs/sim_1/new/tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'tb_shiftreg'
+INFO: [USF-XSim-69] 'compile' step finished in '4' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/eliof/Desktop/Esercizi ASDI/Esercizio4.1/Esercizio4.1.sim/sim_1/behav/xsim'
+"xelab -wto 9876040d9d8d499e8dabc0160e526bf4 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_shiftreg_behav xil_defaultlib.tb_shiftreg -log elaborate.log"
+Vivado Simulator 2020.1
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.1/bin/unwrapped/win64.o/xelab.exe -wto 9876040d9d8d499e8dabc0160e526bf4 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_shiftreg_behav xil_defaultlib.tb_shiftreg -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling architecture dataflow of entity xil_defaultlib.mux4_1 [mux4_1_default]
+Compiling architecture behavioral of entity xil_defaultlib.ffd [ffd_default]
+Compiling architecture structural of entity xil_defaultlib.shiftreg [shiftreg_default]
+Compiling architecture behavior of entity xil_defaultlib.tb_shiftreg
+Built simulation snapshot tb_shiftreg_behav
+
+****** Webtalk v2020.1 (64-bit)
+  **** SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+  **** IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/eliof/Desktop/Esercizi -notrace
+couldn't read file "C:/Users/eliof/Desktop/Esercizi": permission denied
+INFO: [Common 17-206] Exiting Webtalk at Fri Nov 14 17:02:29 2025...
+run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:08 . Memory (MB): peak = 1024.734 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '7' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/eliof/Desktop/Esercizi ASDI/Esercizio4.1/Esercizio4.1.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_shiftreg_behav -key {Behavioral:sim_1:Functional:tb_shiftreg} -tclbatch {tb_shiftreg.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2020.1
+Time resolution is 1 ps
+source tb_shiftreg.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_shiftreg_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:12 ; elapsed = 00:00:17 . Memory (MB): peak = 1024.734 ; gain = 0.000
+close_sim
+INFO: [Common 17-41] Interrupt caught. Command should exit soon.

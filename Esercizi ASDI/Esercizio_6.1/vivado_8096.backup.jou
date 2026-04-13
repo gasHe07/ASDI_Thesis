@@ -1,0 +1,29 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Sat Nov 29 13:20:32 2025
+# Process ID: 8096
+# Current directory: C:/Users/eliof/Desktop/Esercizi ASDI/Esercizio_6.1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent9908 C:\Users\eliof\Desktop\Esercizi ASDI\Esercizio_6.1\Esercizio_6.1.xpr
+# Log file: C:/Users/eliof/Desktop/Esercizi ASDI/Esercizio_6.1/vivado.log
+# Journal file: C:/Users/eliof/Desktop/Esercizi ASDI/Esercizio_6.1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/eliof/Desktop/Esercizi ASDI/Esercizio_6.1/Esercizio_6.1.xpr}
+update_compile_order -fileset sources_1
+launch_simulation
+source tb_top_module.tcl
+current_wave_config {Untitled 1}
+add_wave {{/tb_top_module/uut/readed}} 
+relaunch_sim
+step
+close_sim
+launch_simulation
+source tb_top_module.tcl
+current_wave_config {Untitled 2}
+add_wave {{/tb_top_module/uut/dout}} 
+current_wave_config {Untitled 2}
+add_wave {{/tb_top_module/uut/str}} 
+relaunch_sim
+close_sim

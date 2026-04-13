@@ -1,0 +1,4 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/eliof/Desktop/Esercizi ASDI/Esercizio 5.1/Esercizio 5.1.srcs/sources_1/new/cronometro.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'cronometro'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/eliof/Desktop/Esercizi ASDI/Esercizio 5.1/Esercizio 5.1.srcs/sim_1/new/tb_cronometro.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'tb_cronometro'

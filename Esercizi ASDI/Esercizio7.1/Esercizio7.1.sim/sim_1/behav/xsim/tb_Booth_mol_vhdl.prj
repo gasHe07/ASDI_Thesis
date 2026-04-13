@@ -1,0 +1,17 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../Esercizio7.1.srcs/sources_1/imports/new/registro8.vhd" \
+"../../../../Esercizio7.1.srcs/sources_1/imports/new/mux_21.vhd" \
+"../../../../Esercizio7.1.srcs/sources_1/imports/new/FFD.vhd" \
+"../../../../Esercizio7.1.srcs/sources_1/imports/new/shift_register.vhd" \
+"../../../../Esercizio7.1.srcs/sources_1/imports/new/adder_sub.vhd" \
+"../../../../Esercizio7.1.srcs/sources_1/imports/new/cont_mod8.vhd" \
+"../../../../Esercizio7.1.srcs/sources_1/new/booth_uo.vhd" \
+"../../../../Esercizio7.1.srcs/sources_1/new/booth_uc.vhd" \
+"../../../../Esercizio7.1.srcs/sources_1/new/Booth_mol.vhd" \
+"../../../../Esercizio7.1.srcs/sources_1/imports/new/full_adder.vhd" \
+"../../../../Esercizio7.1.srcs/sources_1/imports/new/ripple_carry.vhd" \
+"../../../../Esercizio7.1.srcs/sim_1/new/tb.vhd" \
+
+# Do not sort compile order
+nosort

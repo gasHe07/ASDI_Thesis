@@ -1,0 +1,79 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Fri Nov 14 16:27:16 2025
+# Process ID: 9116
+# Current directory: C:/Users/eliof/Desktop/Esercizi ASDI/Esercizio4.1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent6772 C:\Users\eliof\Desktop\Esercizi ASDI\Esercizio4.1\Esercizio4.1.xpr
+# Log file: C:/Users/eliof/Desktop/Esercizi ASDI/Esercizio4.1/vivado.log
+# Journal file: C:/Users/eliof/Desktop/Esercizi ASDI/Esercizio4.1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/eliof/Desktop/Esercizi ASDI/Esercizio4.1/Esercizio4.1.xpr}
+INFO: [Project 1-313] Project file moved from 'C:/Users/eliof/Esercizio4.1' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2020.1/data/ip'.
+open_project: Time (s): cpu = 00:00:15 ; elapsed = 00:00:06 . Memory (MB): peak = 1029.719 ; gain = 0.000
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+synth_design -rtl -name rtl_1
+Command: synth_design -rtl -name rtl_1
+Starting synth_design
+Using part: xc7a50ticsg324-1L
+Top: shiftreg
+INFO: [Device 21-403] Loading part xc7a50ticsg324-1L
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1411.379 ; gain = 241.953
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'shiftreg' [C:/Users/eliof/Desktop/Esercizi ASDI/Esercizio4.1/Esercizio4.1.srcs/sources_1/new/shiftreg.vhd:105]
+	Parameter n bound to: 4 - type: integer 
+INFO: [Synth 8-3491] module 'mux4_1' declared at 'C:/Users/eliof/Desktop/Esercizi ASDI/Esercizio4.1/Esercizio4.1.srcs/sources_1/new/muxN_1.vhd:33' bound to instance 'mux_inst' of component 'mux4_1' [C:/Users/eliof/Desktop/Esercizi ASDI/Esercizio4.1/Esercizio4.1.srcs/sources_1/new/shiftreg.vhd:166]
+INFO: [Synth 8-638] synthesizing module 'mux4_1' [C:/Users/eliof/Desktop/Esercizi ASDI/Esercizio4.1/Esercizio4.1.srcs/sources_1/new/muxN_1.vhd:41]
+INFO: [Synth 8-256] done synthesizing module 'mux4_1' (1#1) [C:/Users/eliof/Desktop/Esercizi ASDI/Esercizio4.1/Esercizio4.1.srcs/sources_1/new/muxN_1.vhd:41]
+INFO: [Synth 8-3491] module 'ffd' declared at 'C:/Users/eliof/Desktop/Esercizi ASDI/Esercizio4.1/Esercizio4.1.srcs/sources_1/new/ffd.vhd:34' bound to instance 'DFF_inst' of component 'FFD' [C:/Users/eliof/Desktop/Esercizi ASDI/Esercizio4.1/Esercizio4.1.srcs/sources_1/new/shiftreg.vhd:174]
+INFO: [Synth 8-638] synthesizing module 'ffd' [C:/Users/eliof/Desktop/Esercizi ASDI/Esercizio4.1/Esercizio4.1.srcs/sources_1/new/ffd.vhd:41]
+WARNING: [Synth 8-614] signal 'rst' is read in the process but is not in the sensitivity list [C:/Users/eliof/Desktop/Esercizi ASDI/Esercizio4.1/Esercizio4.1.srcs/sources_1/new/ffd.vhd:44]
+INFO: [Synth 8-256] done synthesizing module 'ffd' (2#1) [C:/Users/eliof/Desktop/Esercizi ASDI/Esercizio4.1/Esercizio4.1.srcs/sources_1/new/ffd.vhd:41]
+INFO: [Synth 8-3491] module 'mux4_1' declared at 'C:/Users/eliof/Desktop/Esercizi ASDI/Esercizio4.1/Esercizio4.1.srcs/sources_1/new/muxN_1.vhd:33' bound to instance 'mux_inst' of component 'mux4_1' [C:/Users/eliof/Desktop/Esercizi ASDI/Esercizio4.1/Esercizio4.1.srcs/sources_1/new/shiftreg.vhd:166]
+INFO: [Synth 8-3491] module 'ffd' declared at 'C:/Users/eliof/Desktop/Esercizi ASDI/Esercizio4.1/Esercizio4.1.srcs/sources_1/new/ffd.vhd:34' bound to instance 'DFF_inst' of component 'FFD' [C:/Users/eliof/Desktop/Esercizi ASDI/Esercizio4.1/Esercizio4.1.srcs/sources_1/new/shiftreg.vhd:174]
+INFO: [Synth 8-3491] module 'mux4_1' declared at 'C:/Users/eliof/Desktop/Esercizi ASDI/Esercizio4.1/Esercizio4.1.srcs/sources_1/new/muxN_1.vhd:33' bound to instance 'mux_inst' of component 'mux4_1' [C:/Users/eliof/Desktop/Esercizi ASDI/Esercizio4.1/Esercizio4.1.srcs/sources_1/new/shiftreg.vhd:166]
+INFO: [Synth 8-3491] module 'ffd' declared at 'C:/Users/eliof/Desktop/Esercizi ASDI/Esercizio4.1/Esercizio4.1.srcs/sources_1/new/ffd.vhd:34' bound to instance 'DFF_inst' of component 'FFD' [C:/Users/eliof/Desktop/Esercizi ASDI/Esercizio4.1/Esercizio4.1.srcs/sources_1/new/shiftreg.vhd:174]
+INFO: [Synth 8-3491] module 'mux4_1' declared at 'C:/Users/eliof/Desktop/Esercizi ASDI/Esercizio4.1/Esercizio4.1.srcs/sources_1/new/muxN_1.vhd:33' bound to instance 'mux_inst' of component 'mux4_1' [C:/Users/eliof/Desktop/Esercizi ASDI/Esercizio4.1/Esercizio4.1.srcs/sources_1/new/shiftreg.vhd:166]
+INFO: [Synth 8-3491] module 'ffd' declared at 'C:/Users/eliof/Desktop/Esercizi ASDI/Esercizio4.1/Esercizio4.1.srcs/sources_1/new/ffd.vhd:34' bound to instance 'DFF_inst' of component 'FFD' [C:/Users/eliof/Desktop/Esercizi ASDI/Esercizio4.1/Esercizio4.1.srcs/sources_1/new/shiftreg.vhd:174]
+INFO: [Synth 8-256] done synthesizing module 'shiftreg' (3#1) [C:/Users/eliof/Desktop/Esercizi ASDI/Esercizio4.1/Esercizio4.1.srcs/sources_1/new/shiftreg.vhd:105]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1495.898 ; gain = 326.473
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1495.898 ; gain = 326.473
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1495.898 ; gain = 326.473
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1495.898 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1533.594 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:00:15 ; elapsed = 00:00:10 . Memory (MB): peak = 1611.770 ; gain = 442.344
+18 Infos, 1 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:22 ; elapsed = 00:00:37 . Memory (MB): peak = 1611.770 ; gain = 582.051
+close_design
+exit
+INFO: [Common 17-206] Exiting Vivado at Fri Nov 14 16:53:44 2025...

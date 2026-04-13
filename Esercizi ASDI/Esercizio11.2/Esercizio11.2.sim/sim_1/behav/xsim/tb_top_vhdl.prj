@@ -1,0 +1,10 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../Esercizio11.2.srcs/sources_1/imports/new/ele_switch.vhd" \
+"../../../../Esercizio11.2.srcs/sources_1/new/manager.vhd" \
+"../../../../Esercizio11.2.srcs/sources_1/imports/new/omega_network.vhd" \
+"../../../../Esercizio11.2.srcs/sources_1/new/top.vhd" \
+"../../../../Esercizio11.2.srcs/sim_1/new/tb.vhd" \
+
+# Do not sort compile order
+nosort

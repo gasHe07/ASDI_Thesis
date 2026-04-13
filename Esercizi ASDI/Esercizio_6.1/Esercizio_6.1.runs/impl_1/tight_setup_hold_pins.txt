@@ -1,0 +1,33 @@
++--------------------------+--------------------------+----------------------------------------------------------------------------------------------------------+
+|       Launch Clock       |      Capture Clock       |                                                 Pin                                                      |
++--------------------------+--------------------------+----------------------------------------------------------------------------------------------------------+
+|              sys_clk_pin |              sys_clk_pin |                                                               reset_deb/FSM_sequential_BTN_state_reg[0]/D|
+|              sys_clk_pin |              sys_clk_pin |                                                               reset_deb/FSM_sequential_BTN_state_reg[1]/D|
+|              sys_clk_pin |              sys_clk_pin |                                                                               start_deb/CLEARED_BTN_reg/D|
+|              sys_clk_pin |              sys_clk_pin |                                                                               reset_deb/CLEARED_BTN_reg/D|
+|              sys_clk_pin |              sys_clk_pin |                                                                                read_deb/CLEARED_BTN_reg/D|
+|              sys_clk_pin |              sys_clk_pin |                                                               start_deb/FSM_sequential_BTN_state_reg[0]/D|
+|              sys_clk_pin |              sys_clk_pin |                                                                                 reset_deb/count_reg[29]/D|
+|              sys_clk_pin |              sys_clk_pin |                                                                read_deb/FSM_sequential_BTN_state_reg[0]/D|
+|              sys_clk_pin |              sys_clk_pin |                                                                                 reset_deb/count_reg[28]/D|
+|              sys_clk_pin |              sys_clk_pin |                                                               start_deb/FSM_sequential_BTN_state_reg[1]/D|
+|              sys_clk_pin |              sys_clk_pin |                                                                read_deb/FSM_sequential_BTN_state_reg[1]/D|
+|              sys_clk_pin |              sys_clk_pin |                                                                                 reset_deb/count_reg[25]/D|
+|              sys_clk_pin |              sys_clk_pin |                                                                                 reset_deb/count_reg[20]/D|
+|              sys_clk_pin |              sys_clk_pin |                                                                     control_unit/contatore/count_reg[2]/D|
+|              sys_clk_pin |              sys_clk_pin |                                                                          control_unit/reg_readed_reg[0]/D|
+|              sys_clk_pin |              sys_clk_pin |                                                       control_unit/FSM_sequential_stato_corrente_reg[0]/D|
+|              sys_clk_pin |              sys_clk_pin |                                                                            control_unit/r0m/dout_reg[2]/D|
+|              sys_clk_pin |              sys_clk_pin |                                                                          control_unit/reg_readed_reg[1]/D|
+|              sys_clk_pin |              sys_clk_pin |                                                       control_unit/FSM_sequential_stato_corrente_reg[1]/D|
+|              sys_clk_pin |              sys_clk_pin |                                                                     control_unit/contatore/count_reg[1]/D|
+|              sys_clk_pin |              sys_clk_pin |                                                                                   read_deb/count_reg[0]/D|
+|              sys_clk_pin |              sys_clk_pin |                                                                          control_unit/reg_readed_reg[2]/D|
+|              sys_clk_pin |              sys_clk_pin |                                                                                  control_unit/y_reg_reg/D|
+|              sys_clk_pin |              sys_clk_pin |                                                                            control_unit/r0m/dout_reg[0]/D|
+|              sys_clk_pin |              sys_clk_pin |                                                                            control_unit/r0m/dout_reg[1]/D|
+|              sys_clk_pin |              sys_clk_pin |                                                                     control_unit/contatore/count_reg[0]/D|
+|              sys_clk_pin |              sys_clk_pin |                                                                                 control_unit/pushed_reg/D|
+|              sys_clk_pin |              sys_clk_pin |                                                                                  reset_deb/count_reg[0]/D|
+|              sys_clk_pin |              sys_clk_pin |                                                                                           y_latched_reg/D|
++--------------------------+--------------------------+----------------------------------------------------------------------------------------------------------+

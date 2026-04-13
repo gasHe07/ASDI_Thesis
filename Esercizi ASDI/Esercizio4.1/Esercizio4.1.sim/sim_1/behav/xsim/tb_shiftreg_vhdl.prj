@@ -1,0 +1,9 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../Esercizio4.1.srcs/sources_1/new/ffd.vhd" \
+"../../../../Esercizio4.1.srcs/sources_1/new/muxN_1.vhd" \
+"../../../../Esercizio4.1.srcs/sources_1/new/shiftreg.vhd" \
+"../../../../Esercizio4.1.srcs/sim_1/new/tb.vhd" \
+
+# Do not sort compile order
+nosort

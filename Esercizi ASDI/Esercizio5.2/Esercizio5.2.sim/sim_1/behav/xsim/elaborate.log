@@ -1,0 +1,28 @@
+Vivado Simulator 2020.1
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.1/bin/unwrapped/win64.o/xelab.exe -wto bb7b02468f9448cfbd63eff4833b1423 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_on_board2_behav xil_defaultlib.tb_on_board2 -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling architecture behavioral of entity xil_defaultlib.ButtonDebouncer [buttondebouncer_default]
+Compiling architecture behavioral of entity xil_defaultlib.clock_divider [\clock_divider(clock_frequency_o...]
+Compiling architecture behavioral of entity xil_defaultlib.counter_mod_60 [counter_mod_60_default]
+Compiling architecture behavioral of entity xil_defaultlib.counter_mod_60 [\counter_mod_60(max=24,depth=4)\]
+Compiling architecture structural of entity xil_defaultlib.cronometro [cronometro_default]
+Compiling architecture behavioral of entity xil_defaultlib.memory [memory_default]
+Compiling architecture behavioral of entity xil_defaultlib.clock_divider [clock_divider_default]
+Compiling architecture behavioral of entity xil_defaultlib.counter_mod8 [counter_mod8_default]
+Compiling architecture behavioral of entity xil_defaultlib.cathodes_input_manager [cathodes_input_manager_default]
+Compiling architecture behavioral of entity xil_defaultlib.cathodes_manager [cathodes_manager_default]
+Compiling architecture behavioral of entity xil_defaultlib.anodes_manager [anodes_manager_default]
+Compiling architecture structural of entity xil_defaultlib.display_seven_segments [\display_seven_segments(clock_fr...]
+Compiling architecture behavioral of entity xil_defaultlib.on_board2 [on_board2_default]
+Compiling architecture behavioral of entity xil_defaultlib.tb_on_board2
+Built simulation snapshot tb_on_board2_behav

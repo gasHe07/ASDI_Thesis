@@ -1,0 +1,11 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../Esercizio8.1.srcs/sources_1/imports/new/machine.vhd" \
+"../../../../Esercizio8.1.srcs/sources_1/new/Node_B.vhd" \
+"../../../../Esercizio8.1.srcs/sources_1/imports/new/rom.vhd" \
+"../../../../Esercizio8.1.srcs/sources_1/new/Node_a.vhd" \
+"../../../../Esercizio8.1.srcs/sources_1/new/top_module.vhd" \
+"../../../../Esercizio8.1.srcs/sim_1/new/tb.vhd" \
+
+# Do not sort compile order
+nosort

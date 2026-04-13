@@ -1,0 +1,11 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../Esercizio1.1.srcs/sources_1/new/MUX2_1.vhd" \
+"../../../../Esercizio1.1.srcs/sources_1/new/MUX32_1.vhd" \
+"../../../../Esercizio1.1.srcs/sources_1/new/MUX8_1.vhd" \
+"../../../../Esercizio1.1.srcs/sources_1/new/comb_net.vhd" \
+"../../../../Esercizio1.1.srcs/sources_1/new/demux1_8.vhd" \
+"../../../../Esercizio1.1.srcs/sim_1/new/comb_net_tb.vhd" \
+
+# Do not sort compile order
+nosort

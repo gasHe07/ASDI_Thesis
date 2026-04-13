@@ -1,0 +1,9 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../Esercizio1.srcs/sources_1/new/Mux2-1.vhd" \
+"../../../../Esercizio1.srcs/sources_1/new/Mux32_1.vhd" \
+"../../../../Esercizio1.srcs/sources_1/new/Mux81.vhd" \
+"../../../../Esercizio1.srcs/sources_1/new/finale.vhd" \
+
+# Do not sort compile order
+nosort

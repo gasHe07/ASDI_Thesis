@@ -1,0 +1,8 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/eliof/Desktop/Esercizi ASDI/Esercizio4.1/Esercizio4.1.srcs/sources_1/new/ffd.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ffd'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/eliof/Desktop/Esercizi ASDI/Esercizio4.1/Esercizio4.1.srcs/sources_1/new/muxN_1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'mux4_1'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/eliof/Desktop/Esercizi ASDI/Esercizio4.1/Esercizio4.1.srcs/sources_1/new/shiftreg.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'shiftreg'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/eliof/Desktop/Esercizi ASDI/Esercizio4.1/Esercizio4.1.srcs/sim_1/new/tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'tb_shiftreg'
